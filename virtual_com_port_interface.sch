@@ -1,0 +1,111 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L customized_power:+3V3 #PWR?
+U 1 1 5BC809B5
+P 1200 2350
+F 0 "#PWR?" H 1200 2200 50  0001 C CNN
+F 1 "+3V3" H 1250 2550 50  0000 C CNN
+F 2 "" H 1200 2350 50  0001 C CNN
+F 3 "" H 1200 2350 50  0001 C CNN
+	1    1200 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5BC809EC
+P 1200 2800
+F 0 "R?" H 1300 2850 50  0000 L CNN
+F 1 "R" H 1300 2800 50  0000 L CNN
+F 2 "" V 1130 2800 50  0001 C CNN
+F 3 "~" H 1200 2800 50  0001 C CNN
+	1    1200 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5BC80A3C
+P 1500 2800
+F 0 "R?" H 1600 2850 50  0000 L CNN
+F 1 "R" H 1600 2800 50  0000 L CNN
+F 2 "" V 1430 2800 50  0001 C CNN
+F 3 "~" H 1500 2800 50  0001 C CNN
+	1    1500 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5BC80AA9
+P 1200 3200
+F 0 "D?" V 1250 3050 50  0000 R CNN
+F 1 "LED" V 1150 3050 50  0000 R CNN
+F 2 "" H 1200 3200 50  0001 C CNN
+F 3 "~" H 1200 3200 50  0001 C CNN
+	1    1200 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5BC80AE1
+P 1500 3200
+F 0 "D?" V 1550 3050 50  0000 R CNN
+F 1 "LED" V 1450 3050 50  0000 R CNN
+F 2 "" H 1500 3200 50  0001 C CNN
+F 3 "~" H 1500 3200 50  0001 C CNN
+	1    1500 3200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1200 2350 1200 2500
+Wire Wire Line
+	1200 2500 1500 2500
+Wire Wire Line
+	1500 2500 1500 2650
+Connection ~ 1200 2500
+Wire Wire Line
+	1200 2500 1200 2650
+Wire Wire Line
+	1200 2950 1200 3050
+Wire Wire Line
+	1500 2950 1500 3050
+Text Label 1200 3750 1    50   ~ 0
+TXD
+Wire Wire Line
+	1200 3750 1200 3350
+Text Label 1500 3750 1    50   ~ 0
+RXD
+Wire Wire Line
+	1500 3750 1500 3350
+$Comp
+L taobao-components:CP2102GMR U?
+U 1 1 5BC819A8
+P 6350 3050
+F 0 "U?" H 6350 4050 50  0000 C CNN
+F 1 "CP2102GMR" H 6350 3950 50  0000 C CNN
+F 2 "" H 6350 3050 50  0001 C CNN
+F 3 "" H 6350 3050 50  0001 C CNN
+	1    6350 3050
+	1    0    0    -1  
+$EndComp
+Text Label 7600 2600 2    50   ~ 0
+TXD
+Wire Wire Line
+	7600 2600 7050 2600
+Text Label 7600 2700 2    50   ~ 0
+RXD
+Wire Wire Line
+	7600 2700 7050 2700
+$EndSCHEMATC
