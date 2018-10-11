@@ -1,0 +1,202 @@
+EESchema Schematic File Version 4
+LIBS:stm32f103_core-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:GND #PWR?
+U 1 1 5BBFF0FD
+P 2000 2600
+F 0 "#PWR?" H 2000 2350 50  0001 C CNN
+F 1 "GND" H 2050 2400 50  0000 C CNN
+F 2 "" H 2000 2600 50  0001 C CNN
+F 3 "" H 2000 2600 50  0001 C CNN
+	1    2000 2600
+	1    0    0    -1  
+$EndComp
+Text Label 2000 950  3    50   ~ 0
+LED1
+$Comp
+L Device:LED D?
+U 1 1 5BBFF151
+P 2000 2300
+F 0 "D?" V 2050 2150 50  0000 R CNN
+F 1 "LED" V 1950 2150 50  0000 R CNN
+F 2 "" H 2000 2300 50  0001 C CNN
+F 3 "~" H 2000 2300 50  0001 C CNN
+	1    2000 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5BBFF1B9
+P 2000 1900
+F 0 "R?" H 2100 1950 50  0000 L CNN
+F 1 "R" H 2100 1900 50  0000 L CNN
+F 2 "" V 1930 1900 50  0001 C CNN
+F 3 "~" H 2000 1900 50  0001 C CNN
+	1    2000 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x04_Odd_Even J?
+U 1 1 5BBFF2E4
+P 2100 1350
+F 0 "J?" V 2100 1050 50  0000 R CNN
+F 1 "Conn_02x04_Odd_Even" V 2150 1050 50  0000 R CNN
+F 2 "" H 2100 1350 50  0001 C CNN
+F 3 "~" H 2100 1350 50  0001 C CNN
+	1    2100 1350
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	2000 950  2000 1150
+Wire Wire Line
+	2000 1650 2000 1750
+Wire Wire Line
+	2000 2050 2000 2150
+Wire Wire Line
+	2000 2450 2000 2600
+$Comp
+L power:GND #PWR?
+U 1 1 5BBFF3E5
+P 2100 2600
+F 0 "#PWR?" H 2100 2350 50  0001 C CNN
+F 1 "GND" H 2150 2400 50  0000 C CNN
+F 2 "" H 2100 2600 50  0001 C CNN
+F 3 "" H 2100 2600 50  0001 C CNN
+	1    2100 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5BBFF3EB
+P 2100 2300
+F 0 "D?" V 2150 2150 50  0000 R CNN
+F 1 "LED" V 2050 2150 50  0000 R CNN
+F 2 "" H 2100 2300 50  0001 C CNN
+F 3 "~" H 2100 2300 50  0001 C CNN
+	1    2100 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5BBFF3F1
+P 2100 1900
+F 0 "R?" H 2200 1950 50  0000 L CNN
+F 1 "R" H 2200 1900 50  0000 L CNN
+F 2 "" V 2030 1900 50  0001 C CNN
+F 3 "~" H 2100 1900 50  0001 C CNN
+	1    2100 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 1650 2100 1750
+Wire Wire Line
+	2100 2050 2100 2150
+Wire Wire Line
+	2100 2450 2100 2600
+$Comp
+L power:GND #PWR?
+U 1 1 5BBFF4C7
+P 2200 2600
+F 0 "#PWR?" H 2200 2350 50  0001 C CNN
+F 1 "GND" H 2250 2400 50  0000 C CNN
+F 2 "" H 2200 2600 50  0001 C CNN
+F 3 "" H 2200 2600 50  0001 C CNN
+	1    2200 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5BBFF4CD
+P 2200 2300
+F 0 "D?" V 2250 2150 50  0000 R CNN
+F 1 "LED" V 2150 2150 50  0000 R CNN
+F 2 "" H 2200 2300 50  0001 C CNN
+F 3 "~" H 2200 2300 50  0001 C CNN
+	1    2200 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5BBFF4D3
+P 2200 1900
+F 0 "R?" H 2300 1950 50  0000 L CNN
+F 1 "R" H 2300 1900 50  0000 L CNN
+F 2 "" V 2130 1900 50  0001 C CNN
+F 3 "~" H 2200 1900 50  0001 C CNN
+	1    2200 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 1650 2200 1750
+Wire Wire Line
+	2200 2050 2200 2150
+Wire Wire Line
+	2200 2450 2200 2600
+$Comp
+L power:GND #PWR?
+U 1 1 5BBFF4DC
+P 2300 2600
+F 0 "#PWR?" H 2300 2350 50  0001 C CNN
+F 1 "GND" H 2350 2400 50  0000 C CNN
+F 2 "" H 2300 2600 50  0001 C CNN
+F 3 "" H 2300 2600 50  0001 C CNN
+	1    2300 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5BBFF4E2
+P 2300 2300
+F 0 "D?" V 2350 2150 50  0000 R CNN
+F 1 "LED" V 2250 2150 50  0000 R CNN
+F 2 "" H 2300 2300 50  0001 C CNN
+F 3 "~" H 2300 2300 50  0001 C CNN
+	1    2300 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5BBFF4E8
+P 2300 1900
+F 0 "R?" H 2400 1950 50  0000 L CNN
+F 1 "R" H 2400 1900 50  0000 L CNN
+F 2 "" V 2230 1900 50  0001 C CNN
+F 3 "~" H 2300 1900 50  0001 C CNN
+	1    2300 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 1650 2300 1750
+Wire Wire Line
+	2300 2050 2300 2150
+Wire Wire Line
+	2300 2450 2300 2600
+Text Label 2100 950  3    50   ~ 0
+PC9
+Wire Wire Line
+	2100 950  2100 1150
+Text Label 2200 950  3    50   ~ 0
+PC8
+Wire Wire Line
+	2200 950  2200 1150
+Text Label 2300 950  3    50   ~ 0
+PC5
+Wire Wire Line
+	2300 950  2300 1150
+Text Notes 1350 1950 0    50   ~ 0
+DEBUG LED
+$EndSCHEMATC
