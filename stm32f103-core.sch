@@ -698,10 +698,10 @@ Wire Wire Line
 Wire Wire Line
 	14500 3100 14500 3350
 $Comp
-L Jumper:SolderJumper_3_Open JP1
+L Jumper:SolderJumper_3_Open BOOT0
 U 1 1 5BCF8FA5
 P 11800 2850
-F 0 "JP1" V 11754 2918 50  0000 L CNN
+F 0 "BOOT0" V 11754 2918 50  0000 L CNN
 F 1 "SolderJumper_3_Open" V 11845 2918 50  0000 L CNN
 F 2 "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm" H 11800 2850 50  0001 C CNN
 F 3 "~" H 11800 2850 50  0001 C CNN
@@ -709,10 +709,10 @@ F 3 "~" H 11800 2850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Jumper:SolderJumper_3_Open JP2
+L Jumper:SolderJumper_3_Open BOOT1
 U 1 1 5BCF9021
 P 12650 2850
-F 0 "JP2" V 12604 2918 50  0000 L CNN
+F 0 "BOOT1" V 12604 2918 50  0000 L CNN
 F 1 "SolderJumper_3_Open" V 12695 2918 50  0000 L CNN
 F 2 "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm" H 12650 2850 50  0001 C CNN
 F 3 "~" H 12650 2850 50  0001 C CNN
