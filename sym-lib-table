@@ -1,4 +1,2 @@
 (sym_lib_table
-  (lib (name stm32f103_core-rescue)(type Legacy)(uri ${KIPRJMOD}/stm32f103_core-rescue.lib)(options "")(descr ""))
-  (lib (name stm32f103-core-rescue)(type Legacy)(uri ${KIPRJMOD}/stm32f103-core-rescue.lib)(options "")(descr ""))
 )
